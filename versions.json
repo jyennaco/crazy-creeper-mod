@@ -1,0 +1,10 @@
+{
+  "homepage": "joeyennaco.com",
+  "1.15.2": {
+    "1.0.0": "Initial mod version"
+  },
+  "promos": {
+    "1.15.2": "1.0.0",
+    "1.15.2-recommended": "1.0.0"
+  }
+}

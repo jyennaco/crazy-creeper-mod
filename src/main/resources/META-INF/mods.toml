@@ -1,0 +1,36 @@
+    # The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+    modLoader="javafml"
+    # A version range to match for said mod loader - for regular FML @Mod it will be the forge version
+    # Forge for 1.14.4 is version 28
+    loaderVersion="[28,)"
+    # A URL to refer people to when problems occur with this mod
+    issueTrackerURL="github.com/MinecraftForge/MinecraftForge/issues"
+    # If the mods defined in this file should show as seperate resource packs
+    showAsResourcePack=false
+
+    [[mods]]
+      modId="crazycreeper"
+      version="${file.jarVersion}"
+      displayName="Crazy Creeper"
+      updateJSONURL="https://github.com/jyennaco/crazy-creeper-mod/blob/master/versions.json"
+      displayURL="minecraftforge.net"
+      logoFile="assets/examplemod/textures/logo.png"
+      credits="I'd like to thank my mother and father."
+      authors="Author"
+      description='''
+      First mod imagined by the amazing minecrafter Tommy Yennaco at only 10 years old!
+      '''
+
+      [[dependencies.crazycreeper]]
+        modId="forge"
+        mandatory=true
+        versionRange="[31,)"
+        ordering="NONE"
+        side="BOTH"
+
+      [[dependencies.crazycreeper]]
+        modId="minecraft"
+        mandatory=true
+        versionRange="[1.15.2]"
+        ordering="NONE"
+        side="BOTH"
